@@ -27,6 +27,8 @@ import static edu.depaul.email.StorageService.StorageType.BADLINKS;
 public class PageCrawler {
   private int maxEmails= 50;
 
+
+
   public Set<String> getEmails() {
     return emails;
   }
@@ -50,6 +52,7 @@ public class PageCrawler {
   private StorageService storage;
 
   public PageCrawler(StorageService storage) {
+
     this(storage, 50);
   }
 

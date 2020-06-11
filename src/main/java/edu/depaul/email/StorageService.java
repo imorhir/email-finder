@@ -19,7 +19,9 @@ public class StorageService {
 
   public enum StorageType {EMAIL, GOODLINKS, BADLINKS};
 
+
   private Map<StorageType, String> locations = new HashMap<>();
+
 
   public StorageService addLocation(StorageType key, String location) {
 
